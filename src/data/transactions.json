@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "transdate": "5/20/2021",
+        "amount": 20.00
+    },
+    {
+        "id": 2,
+        "transdate": "5/25/2021",
+        "amount": 25.00
+    },
+    {
+        "id": 3,
+        "transdate": "5/30/2021",
+        "amount": 30.00
+    },
+    {
+        "id": 4,
+        "transdate": "6/1/2021",
+        "amount": 50.00
+    },
+    {
+        "id": 5,
+        "transdate": "6/5/2021",
+        "amount": 100.00
+    },
+    {
+        "id": 6,
+        "transdate": "6/10/2021",
+        "amount": 150.00
+    }
+
+]
