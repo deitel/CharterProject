@@ -4,7 +4,6 @@ import './Rewards.css';
 const Rewards = ({transactions}) => {
 
     const rewards = transactions.reduce((ttl, next)=>{
-        console.log(next)
         if (next.amount > 100) {
             const cnt = next.amount - 100;
             ttl = ttl + 50 + Math.floor(cnt*2)
