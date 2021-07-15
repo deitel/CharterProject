@@ -8,7 +8,7 @@ export const getTransactions = () => {
 
 export const postTransaction = (amount) => {
     return new Promise((resolve, reject) => {
-        transactions.push({id: Math.random(1000), transdate: new Date().toLocaleDateString(), amount: amount});
+        transactions.push({id: Math.floor(Math.random()*1000), transdate: new Date().toLocaleDateString(), amount: amount});
         resolve(transactions);
     });
 }
